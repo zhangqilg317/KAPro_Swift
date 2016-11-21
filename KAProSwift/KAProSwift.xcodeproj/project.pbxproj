@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F7E8A21DE2A2520032E4F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E8A11DE2A2520032E4F0 /* AppDelegate.swift */; };
+		A3F7E8A41DE2A2520032E4F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E8A31DE2A2520032E4F0 /* ViewController.swift */; };
+		A3F7E8A71DE2A2520032E4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F7E8A51DE2A2520032E4F0 /* Main.storyboard */; };
+		A3F7E8A91DE2A2520032E4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F7E8A81DE2A2520032E4F0 /* Assets.xcassets */; };
+		A3F7E8AC1DE2A2520032E4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F7E8AA1DE2A2520032E4F0 /* LaunchScreen.storyboard */; };
+		A3F7E8B71DE2A2520032E4F0 /* KAProSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E8B61DE2A2520032E4F0 /* KAProSwiftTests.swift */; };
+		A3F7E8C21DE2A2520032E4F0 /* KAProSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F7E8C11DE2A2520032E4F0 /* KAProSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F7E8B31DE2A2520032E4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F7E8961DE2A2520032E4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F7E89D1DE2A2520032E4F0;
+			remoteInfo = KAProSwift;
+		};
+		A3F7E8BE1DE2A2520032E4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F7E8961DE2A2520032E4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F7E89D1DE2A2520032E4F0;
+			remoteInfo = KAProSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F7E89E1DE2A2520032E4F0 /* KAProSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAProSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F7E8A11DE2A2520032E4F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3F7E8A31DE2A2520032E4F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3F7E8A61DE2A2520032E4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F7E8A81DE2A2520032E4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F7E8AB1DE2A2520032E4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F7E8AD1DE2A2520032E4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F7E8B21DE2A2520032E4F0 /* KAProSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAProSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F7E8B61DE2A2520032E4F0 /* KAProSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAProSwiftTests.swift; sourceTree = "<group>"; };
+		A3F7E8B81DE2A2520032E4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F7E8BD1DE2A2520032E4F0 /* KAProSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAProSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F7E8C11DE2A2520032E4F0 /* KAProSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAProSwiftUITests.swift; sourceTree = "<group>"; };
+		A3F7E8C31DE2A2520032E4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F7E89B1DE2A2520032E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8AF1DE2A2520032E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8BA1DE2A2520032E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F7E8951DE2A2520032E4F0 = {
+			isa = PBXGroup;
+			children = (
+				A3F7E8A01DE2A2520032E4F0 /* KAProSwift */,
+				A3F7E8B51DE2A2520032E4F0 /* KAProSwiftTests */,
+				A3F7E8C01DE2A2520032E4F0 /* KAProSwiftUITests */,
+				A3F7E89F1DE2A2520032E4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F7E89F1DE2A2520032E4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7E89E1DE2A2520032E4F0 /* KAProSwift.app */,
+				A3F7E8B21DE2A2520032E4F0 /* KAProSwiftTests.xctest */,
+				A3F7E8BD1DE2A2520032E4F0 /* KAProSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F7E8A01DE2A2520032E4F0 /* KAProSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7E8A11DE2A2520032E4F0 /* AppDelegate.swift */,
+				A3F7E8A31DE2A2520032E4F0 /* ViewController.swift */,
+				A3F7E8A51DE2A2520032E4F0 /* Main.storyboard */,
+				A3F7E8A81DE2A2520032E4F0 /* Assets.xcassets */,
+				A3F7E8AA1DE2A2520032E4F0 /* LaunchScreen.storyboard */,
+				A3F7E8AD1DE2A2520032E4F0 /* Info.plist */,
+			);
+			path = KAProSwift;
+			sourceTree = "<group>";
+		};
+		A3F7E8B51DE2A2520032E4F0 /* KAProSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7E8B61DE2A2520032E4F0 /* KAProSwiftTests.swift */,
+				A3F7E8B81DE2A2520032E4F0 /* Info.plist */,
+			);
+			path = KAProSwiftTests;
+			sourceTree = "<group>";
+		};
+		A3F7E8C01DE2A2520032E4F0 /* KAProSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7E8C11DE2A2520032E4F0 /* KAProSwiftUITests.swift */,
+				A3F7E8C31DE2A2520032E4F0 /* Info.plist */,
+			);
+			path = KAProSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F7E89D1DE2A2520032E4F0 /* KAProSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F7E8C61DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwift" */;
+			buildPhases = (
+				A3F7E89A1DE2A2520032E4F0 /* Sources */,
+				A3F7E89B1DE2A2520032E4F0 /* Frameworks */,
+				A3F7E89C1DE2A2520032E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAProSwift;
+			productName = KAProSwift;
+			productReference = A3F7E89E1DE2A2520032E4F0 /* KAProSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F7E8B11DE2A2520032E4F0 /* KAProSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F7E8C91DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwiftTests" */;
+			buildPhases = (
+				A3F7E8AE1DE2A2520032E4F0 /* Sources */,
+				A3F7E8AF1DE2A2520032E4F0 /* Frameworks */,
+				A3F7E8B01DE2A2520032E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F7E8B41DE2A2520032E4F0 /* PBXTargetDependency */,
+			);
+			name = KAProSwiftTests;
+			productName = KAProSwiftTests;
+			productReference = A3F7E8B21DE2A2520032E4F0 /* KAProSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F7E8BC1DE2A2520032E4F0 /* KAProSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F7E8CC1DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwiftUITests" */;
+			buildPhases = (
+				A3F7E8B91DE2A2520032E4F0 /* Sources */,
+				A3F7E8BA1DE2A2520032E4F0 /* Frameworks */,
+				A3F7E8BB1DE2A2520032E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F7E8BF1DE2A2520032E4F0 /* PBXTargetDependency */,
+			);
+			name = KAProSwiftUITests;
+			productName = KAProSwiftUITests;
+			productReference = A3F7E8BD1DE2A2520032E4F0 /* KAProSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F7E8961DE2A2520032E4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = eBest;
+				TargetAttributes = {
+					A3F7E89D1DE2A2520032E4F0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A3F7E8B11DE2A2520032E4F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A3F7E89D1DE2A2520032E4F0;
+					};
+					A3F7E8BC1DE2A2520032E4F0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A3F7E89D1DE2A2520032E4F0;
+					};
+				};
+			};
+			buildConfigurationList = A3F7E8991DE2A2520032E4F0 /* Build configuration list for PBXProject "KAProSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F7E8951DE2A2520032E4F0;
+			productRefGroup = A3F7E89F1DE2A2520032E4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F7E89D1DE2A2520032E4F0 /* KAProSwift */,
+				A3F7E8B11DE2A2520032E4F0 /* KAProSwiftTests */,
+				A3F7E8BC1DE2A2520032E4F0 /* KAProSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F7E89C1DE2A2520032E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F7E8AC1DE2A2520032E4F0 /* LaunchScreen.storyboard in Resources */,
+				A3F7E8A91DE2A2520032E4F0 /* Assets.xcassets in Resources */,
+				A3F7E8A71DE2A2520032E4F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8B01DE2A2520032E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8BB1DE2A2520032E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F7E89A1DE2A2520032E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F7E8A41DE2A2520032E4F0 /* ViewController.swift in Sources */,
+				A3F7E8A21DE2A2520032E4F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8AE1DE2A2520032E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F7E8B71DE2A2520032E4F0 /* KAProSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F7E8B91DE2A2520032E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F7E8C21DE2A2520032E4F0 /* KAProSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F7E8B41DE2A2520032E4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F7E89D1DE2A2520032E4F0 /* KAProSwift */;
+			targetProxy = A3F7E8B31DE2A2520032E4F0 /* PBXContainerItemProxy */;
+		};
+		A3F7E8BF1DE2A2520032E4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F7E89D1DE2A2520032E4F0 /* KAProSwift */;
+			targetProxy = A3F7E8BE1DE2A2520032E4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F7E8A51DE2A2520032E4F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F7E8A61DE2A2520032E4F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F7E8AA1DE2A2520032E4F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F7E8AB1DE2A2520032E4F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F7E8C41DE2A2520032E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F7E8C51DE2A2520032E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F7E8C71DE2A2520032E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAProSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3F7E8C81DE2A2520032E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAProSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3F7E8CA1DE2A2520032E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAProSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAProSwift.app/KAProSwift";
+			};
+			name = Debug;
+		};
+		A3F7E8CB1DE2A2520032E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAProSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAProSwift.app/KAProSwift";
+			};
+			name = Release;
+		};
+		A3F7E8CD1DE2A2520032E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAProSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAProSwift;
+			};
+			name = Debug;
+		};
+		A3F7E8CE1DE2A2520032E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAProSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eBest.KAProSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAProSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F7E8991DE2A2520032E4F0 /* Build configuration list for PBXProject "KAProSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F7E8C41DE2A2520032E4F0 /* Debug */,
+				A3F7E8C51DE2A2520032E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F7E8C61DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F7E8C71DE2A2520032E4F0 /* Debug */,
+				A3F7E8C81DE2A2520032E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3F7E8C91DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F7E8CA1DE2A2520032E4F0 /* Debug */,
+				A3F7E8CB1DE2A2520032E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3F7E8CC1DE2A2520032E4F0 /* Build configuration list for PBXNativeTarget "KAProSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F7E8CD1DE2A2520032E4F0 /* Debug */,
+				A3F7E8CE1DE2A2520032E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3F7E8961DE2A2520032E4F0 /* Project object */;
+}
