@@ -20,6 +20,34 @@
                ReferencedContainer = "container:KAProSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A3F7E8B11DE2A2520032E4F0"
+               BuildableName = "KAProSwiftTests.xctest"
+               BlueprintName = "KAProSwiftTests"
+               ReferencedContainer = "container:KAProSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A3F7E8BC1DE2A2520032E4F0"
+               BuildableName = "KAProSwiftUITests.xctest"
+               BlueprintName = "KAProSwiftUITests"
+               ReferencedContainer = "container:KAProSwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,26 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3F7E8B11DE2A2520032E4F0"
-               BuildableName = "KAProSwiftTests.xctest"
-               BlueprintName = "KAProSwiftTests"
-               ReferencedContainer = "container:KAProSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A3F7E8BC1DE2A2520032E4F0"
-               BuildableName = "KAProSwiftUITests.xctest"
-               BlueprintName = "KAProSwiftUITests"
-               ReferencedContainer = "container:KAProSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
